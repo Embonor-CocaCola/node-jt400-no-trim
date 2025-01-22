@@ -198,7 +198,7 @@ public class JdbcJsonClient
 
 	public static final String trim(String value)
 	{
-		return value == null ? null : value.trim();
+		return value == null ? null : value.replaceAll("\\s+$", "");
 	}
 
 	public int update(String sql, String paramsJson)
