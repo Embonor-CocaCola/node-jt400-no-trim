@@ -1,8 +1,8 @@
 *\#*
 *.bmk
 node_modules
-dist
 config.js
 java/build
 java/bin
 .vscode
+.idea
